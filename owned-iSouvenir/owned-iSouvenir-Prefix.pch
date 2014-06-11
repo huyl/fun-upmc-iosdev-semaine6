@@ -11,6 +11,30 @@
 #endif
 
 #ifdef __OBJC__
+    // Core Frameworks
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <MapKit/MapKit.h>
+    #import <AddressBook/AddressBook.h>
+    #import <AddressBookUI/AddressBookUI.h>
+
+    // 3rd-Party
+    #import "ReactiveCocoa/ReactiveCocoa.h"
+    #import "ReactiveCocoa/EXTScope.h"
+
+    // Project-specific
+    //#import "Constants.h"
+
+#ifndef IS_IPAD
+#define IS_IPAD   ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+#endif
+#ifndef IS_IPHONE
+#define IS_IPHONE   (!IS_IPAD)
+#endif
+#ifndef IS_RETINA
+#define IS_RETINA ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
+#endif
+
+#define AssertSubclassMethod() NSAssert(NO, @"You must override %@ in a subclass", NSStringFromSelector(_cmd))
+
 #endif
