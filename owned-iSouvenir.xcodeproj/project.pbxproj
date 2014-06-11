@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E515EDA31947ECE90054AC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E515EDA21947ECE90054AC95 /* Foundation.framework */; };
+		E515EDA51947ECE90054AC95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E515EDA41947ECE90054AC95 /* CoreGraphics.framework */; };
+		E515EDA71947ECE90054AC95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E515EDA61947ECE90054AC95 /* UIKit.framework */; };
+		E515EDAD1947ECE90054AC95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E515EDAB1947ECE90054AC95 /* InfoPlist.strings */; };
+		E515EDAF1947ECE90054AC95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E515EDAE1947ECE90054AC95 /* main.m */; };
+		E515EDB31947ECE90054AC95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E515EDB21947ECE90054AC95 /* AppDelegate.m */; };
+		E515EDB61947ECE90054AC95 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E515EDB41947ECE90054AC95 /* Main_iPhone.storyboard */; };
+		E515EDB91947ECE90054AC95 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E515EDB71947ECE90054AC95 /* Main_iPad.storyboard */; };
+		E515EDBC1947ECE90054AC95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E515EDBB1947ECE90054AC95 /* ViewController.m */; };
+		E515EDBE1947ECE90054AC95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E515EDBD1947ECE90054AC95 /* Images.xcassets */; };
+		E515EDC51947ECE90054AC95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E515EDC41947ECE90054AC95 /* XCTest.framework */; };
+		E515EDC61947ECE90054AC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E515EDA21947ECE90054AC95 /* Foundation.framework */; };
+		E515EDC71947ECE90054AC95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E515EDA61947ECE90054AC95 /* UIKit.framework */; };
+		E515EDCF1947ECE90054AC95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E515EDCD1947ECE90054AC95 /* InfoPlist.strings */; };
+		E515EDD11947ECE90054AC95 /* owned_iSouvenirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E515EDD01947ECE90054AC95 /* owned_iSouvenirTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E515EDC81947ECE90054AC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E515ED971947ECE90054AC95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E515ED9E1947ECE90054AC95;
+			remoteInfo = "owned-iSouvenir";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E515ED9F1947ECE90054AC95 /* owned-iSouvenir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "owned-iSouvenir.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E515EDA21947ECE90054AC95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E515EDA41947ECE90054AC95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E515EDA61947ECE90054AC95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E515EDAA1947ECE90054AC95 /* owned-iSouvenir-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "owned-iSouvenir-Info.plist"; sourceTree = "<group>"; };
+		E515EDAC1947ECE90054AC95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E515EDAE1947ECE90054AC95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E515EDB01947ECE90054AC95 /* owned-iSouvenir-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "owned-iSouvenir-Prefix.pch"; sourceTree = "<group>"; };
+		E515EDB11947ECE90054AC95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E515EDB21947ECE90054AC95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E515EDB51947ECE90054AC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E515EDB81947ECE90054AC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E515EDBA1947ECE90054AC95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E515EDBB1947ECE90054AC95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E515EDBD1947ECE90054AC95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E515EDC31947ECE90054AC95 /* owned-iSouvenirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "owned-iSouvenirTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E515EDC41947ECE90054AC95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E515EDCC1947ECE90054AC95 /* owned-iSouvenirTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "owned-iSouvenirTests-Info.plist"; sourceTree = "<group>"; };
+		E515EDCE1947ECE90054AC95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E515EDD01947ECE90054AC95 /* owned_iSouvenirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = owned_iSouvenirTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E515ED9C1947ECE90054AC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E515EDA51947ECE90054AC95 /* CoreGraphics.framework in Frameworks */,
+				E515EDA71947ECE90054AC95 /* UIKit.framework in Frameworks */,
+				E515EDA31947ECE90054AC95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E515EDC01947ECE90054AC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E515EDC51947ECE90054AC95 /* XCTest.framework in Frameworks */,
+				E515EDC71947ECE90054AC95 /* UIKit.framework in Frameworks */,
+				E515EDC61947ECE90054AC95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E515ED961947ECE90054AC95 = {
+			isa = PBXGroup;
+			children = (
+				E515EDA81947ECE90054AC95 /* owned-iSouvenir */,
+				E515EDCA1947ECE90054AC95 /* owned-iSouvenirTests */,
+				E515EDA11947ECE90054AC95 /* Frameworks */,
+				E515EDA01947ECE90054AC95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E515EDA01947ECE90054AC95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E515ED9F1947ECE90054AC95 /* owned-iSouvenir.app */,
+				E515EDC31947ECE90054AC95 /* owned-iSouvenirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E515EDA11947ECE90054AC95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E515EDA21947ECE90054AC95 /* Foundation.framework */,
+				E515EDA41947ECE90054AC95 /* CoreGraphics.framework */,
+				E515EDA61947ECE90054AC95 /* UIKit.framework */,
+				E515EDC41947ECE90054AC95 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E515EDA81947ECE90054AC95 /* owned-iSouvenir */ = {
+			isa = PBXGroup;
+			children = (
+				E515EDB11947ECE90054AC95 /* AppDelegate.h */,
+				E515EDB21947ECE90054AC95 /* AppDelegate.m */,
+				E515EDB41947ECE90054AC95 /* Main_iPhone.storyboard */,
+				E515EDB71947ECE90054AC95 /* Main_iPad.storyboard */,
+				E515EDBA1947ECE90054AC95 /* ViewController.h */,
+				E515EDBB1947ECE90054AC95 /* ViewController.m */,
+				E515EDBD1947ECE90054AC95 /* Images.xcassets */,
+				E515EDA91947ECE90054AC95 /* Supporting Files */,
+			);
+			path = "owned-iSouvenir";
+			sourceTree = "<group>";
+		};
+		E515EDA91947ECE90054AC95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E515EDAA1947ECE90054AC95 /* owned-iSouvenir-Info.plist */,
+				E515EDAB1947ECE90054AC95 /* InfoPlist.strings */,
+				E515EDAE1947ECE90054AC95 /* main.m */,
+				E515EDB01947ECE90054AC95 /* owned-iSouvenir-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E515EDCA1947ECE90054AC95 /* owned-iSouvenirTests */ = {
+			isa = PBXGroup;
+			children = (
+				E515EDD01947ECE90054AC95 /* owned_iSouvenirTests.m */,
+				E515EDCB1947ECE90054AC95 /* Supporting Files */,
+			);
+			path = "owned-iSouvenirTests";
+			sourceTree = "<group>";
+		};
+		E515EDCB1947ECE90054AC95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E515EDCC1947ECE90054AC95 /* owned-iSouvenirTests-Info.plist */,
+				E515EDCD1947ECE90054AC95 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E515ED9E1947ECE90054AC95 /* owned-iSouvenir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E515EDD41947ECE90054AC95 /* Build configuration list for PBXNativeTarget "owned-iSouvenir" */;
+			buildPhases = (
+				E515ED9B1947ECE90054AC95 /* Sources */,
+				E515ED9C1947ECE90054AC95 /* Frameworks */,
+				E515ED9D1947ECE90054AC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "owned-iSouvenir";
+			productName = "owned-iSouvenir";
+			productReference = E515ED9F1947ECE90054AC95 /* owned-iSouvenir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E515EDC21947ECE90054AC95 /* owned-iSouvenirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E515EDD71947ECE90054AC95 /* Build configuration list for PBXNativeTarget "owned-iSouvenirTests" */;
+			buildPhases = (
+				E515EDBF1947ECE90054AC95 /* Sources */,
+				E515EDC01947ECE90054AC95 /* Frameworks */,
+				E515EDC11947ECE90054AC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E515EDC91947ECE90054AC95 /* PBXTargetDependency */,
+			);
+			name = "owned-iSouvenirTests";
+			productName = "owned-iSouvenirTests";
+			productReference = E515EDC31947ECE90054AC95 /* owned-iSouvenirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E515ED971947ECE90054AC95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = huy;
+				TargetAttributes = {
+					E515EDC21947ECE90054AC95 = {
+						TestTargetID = E515ED9E1947ECE90054AC95;
+					};
+				};
+			};
+			buildConfigurationList = E515ED9A1947ECE90054AC95 /* Build configuration list for PBXProject "owned-iSouvenir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E515ED961947ECE90054AC95;
+			productRefGroup = E515EDA01947ECE90054AC95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E515ED9E1947ECE90054AC95 /* owned-iSouvenir */,
+				E515EDC21947ECE90054AC95 /* owned-iSouvenirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E515ED9D1947ECE90054AC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E515EDB91947ECE90054AC95 /* Main_iPad.storyboard in Resources */,
+				E515EDBE1947ECE90054AC95 /* Images.xcassets in Resources */,
+				E515EDB61947ECE90054AC95 /* Main_iPhone.storyboard in Resources */,
+				E515EDAD1947ECE90054AC95 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E515EDC11947ECE90054AC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E515EDCF1947ECE90054AC95 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E515ED9B1947ECE90054AC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E515EDBC1947ECE90054AC95 /* ViewController.m in Sources */,
+				E515EDB31947ECE90054AC95 /* AppDelegate.m in Sources */,
+				E515EDAF1947ECE90054AC95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E515EDBF1947ECE90054AC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E515EDD11947ECE90054AC95 /* owned_iSouvenirTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E515EDC91947ECE90054AC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E515ED9E1947ECE90054AC95 /* owned-iSouvenir */;
+			targetProxy = E515EDC81947ECE90054AC95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E515EDAB1947ECE90054AC95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E515EDAC1947ECE90054AC95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E515EDB41947ECE90054AC95 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E515EDB51947ECE90054AC95 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E515EDB71947ECE90054AC95 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E515EDB81947ECE90054AC95 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E515EDCD1947ECE90054AC95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E515EDCE1947ECE90054AC95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E515EDD21947ECE90054AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E515EDD31947ECE90054AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E515EDD51947ECE90054AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "owned-iSouvenir/owned-iSouvenir-Prefix.pch";
+				INFOPLIST_FILE = "owned-iSouvenir/owned-iSouvenir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E515EDD61947ECE90054AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "owned-iSouvenir/owned-iSouvenir-Prefix.pch";
+				INFOPLIST_FILE = "owned-iSouvenir/owned-iSouvenir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E515EDD81947ECE90054AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/owned-iSouvenir.app/owned-iSouvenir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "owned-iSouvenir/owned-iSouvenir-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "owned-iSouvenirTests/owned-iSouvenirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E515EDD91947ECE90054AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/owned-iSouvenir.app/owned-iSouvenir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "owned-iSouvenir/owned-iSouvenir-Prefix.pch";
+				INFOPLIST_FILE = "owned-iSouvenirTests/owned-iSouvenirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E515ED9A1947ECE90054AC95 /* Build configuration list for PBXProject "owned-iSouvenir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E515EDD21947ECE90054AC95 /* Debug */,
+				E515EDD31947ECE90054AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E515EDD41947ECE90054AC95 /* Build configuration list for PBXNativeTarget "owned-iSouvenir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E515EDD51947ECE90054AC95 /* Debug */,
+				E515EDD61947ECE90054AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E515EDD71947ECE90054AC95 /* Build configuration list for PBXNativeTarget "owned-iSouvenirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E515EDD81947ECE90054AC95 /* Debug */,
+				E515EDD91947ECE90054AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E515ED971947ECE90054AC95 /* Project object */;
+}
