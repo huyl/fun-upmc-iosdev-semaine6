@@ -169,7 +169,7 @@
         if (IS_IPAD) {
             self.peoplePickerPopover = [[UIPopoverController alloc] initWithContentViewController:self.peoplePicker];
             [self.peoplePickerPopover presentPopoverFromBarButtonItem:self.contactButton
-                                             permittedArrowDirections:UIPopoverArrowDirectionUp
+                                             permittedArrowDirections:UIPopoverArrowDirectionAny
                                                              animated:YES];
         } else {
             [self presentViewController:self.peoplePicker animated:YES completion:nil];
