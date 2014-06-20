@@ -9,7 +9,7 @@
 // `rac_signalForSelector` because it can't handle return values.
 //
 
-#import <objc/objc-runtime.h>
+#import <objc/runtime.h>
 #import "ABPeoplePickerNavigationControllerDelegateHandler.h"
 
 @interface ABPeoplePickerNavigationControllerDelegateHandler ()<ABPeoplePickerNavigationControllerDelegate>
