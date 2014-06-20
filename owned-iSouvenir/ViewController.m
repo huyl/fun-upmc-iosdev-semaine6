@@ -79,9 +79,15 @@
         _dropPinButton.enabled = NO;
     } else {
         self.mapView.showsUserLocation = YES;
-        
-        
     }
+    
+    // Turn off showsUserLocation when in background
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(appDidEnterBackgroundNotification:)
+                                                 name:UIApplicationDidEnterBackgroundNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(appWillEnterForegroundNotification:)
+                                                 name:UIApplicationWillEnterForegroundNotification object:nil];
     
     /// Set up the rest
     
@@ -210,5 +216,16 @@
     
 }
 
+#pragma mark - UIApplicationDidEnterBackgroundNotification
+
+- (void)appDidEnterBackgroundNotification:(NSNotification *)notification
+{
+    // XXX I'm not sure this is necessary.  iOS seems to turn it off after a few seconds anyway.
+    self.mapView.showsUserLocation = NO;
+}
+- (void)appWillEnterForegroundNotification:(NSNotification *)notification
+{
+    self.mapView.showsUserLocation = YES;
+}
 
 @end
